@@ -13,6 +13,9 @@ class PagesController < ApplicationController
   def age
   end
 
+  def me
+  end
+
   def person
     @person = Person.new params[:name], params[:age]
   end
